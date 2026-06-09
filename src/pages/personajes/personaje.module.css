@@ -1,0 +1,8 @@
+.contenedor-personajes{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+

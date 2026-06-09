@@ -1,0 +1,56 @@
+/* Styles for Contactos page */
+.contactos-page{
+    max-width: 980px;
+    margin: 20px auto;
+    padding: 0 16px 40px;
+}
+
+.contactos-page h1{ margin-bottom: 6px }
+.contactos-page .lead{ color: #475569; margin-bottom: 18px }
+
+.contactos-grid{
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 24px;
+    align-items: start;
+}
+
+.contact-form{
+    background: #fff;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(15,23,42,0.06);
+}
+
+.contact-form label{ display:block; margin-top:10px; font-weight:600 }
+.contact-form input, .contact-form textarea{
+    width:100%;
+    padding:10px;
+    margin-top:6px;
+    border:1px solid #e2e8f0;
+    border-radius:6px;
+    box-sizing:border-box;
+}
+
+.btn-submit{
+    margin-top:12px;
+    background:#2b4d6f;
+    color:#f8fafc;
+    padding:10px 14px;
+    border-radius:8px;
+    border:none;
+    cursor:pointer;
+}
+
+.contact-info .info-card{
+    background:#fff;
+    padding:14px;
+    border-radius:8px;
+    box-shadow: 0 6px 18px rgba(15,23,42,0.06);
+    margin-bottom:12px;
+    text-align:center;
+}
+
+@media (max-width:900px){
+    .contactos-grid{ grid-template-columns: 1fr }
+}

@@ -1,0 +1,2 @@
+export { InicioPage } from "./inicio";
+

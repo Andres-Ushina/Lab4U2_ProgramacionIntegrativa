@@ -1,0 +1,40 @@
+/* Styles for Nosotros page */
+.nosotros-page{
+    max-width: 980px;
+    margin: 20px auto;
+    padding: 0 16px 40px;
+}
+
+.nosotros-header{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.team-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 18px;
+}
+
+.team-card{
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(15,23,42,0.06);
+}
+
+.team-card img{ 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    margin: 8px auto 12px;
+}
+
+.team-card h3{ margin:8px 0 }
+.team-card p{ color:#475569 }
+.team-card:hover{ transform: translateY(-6px); transition: transform 200ms ease }
+
+.nosotros-page{ font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial }

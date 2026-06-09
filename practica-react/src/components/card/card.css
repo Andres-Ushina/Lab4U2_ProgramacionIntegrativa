@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+div{
+    border: 1px solid black;
+}
+
+.activo{
+ color: green;
+}
+
+.inactivo{
+ color: red;
+}

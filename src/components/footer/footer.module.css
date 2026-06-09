@@ -1,0 +1,15 @@
+.module {
+    text-align: center;
+    background-color: #2b4d6f;
+    padding: 1rem 1rem;
+    color: #f8fafc;
+    margin-top: auto;
+    font-size: 0.95rem;
+}
+
+.texto {
+    color: inherit;
+    margin: 0;
+}
+
+
