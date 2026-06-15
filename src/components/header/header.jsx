@@ -6,7 +6,7 @@ export const Header = () =>  {
   return (
     <header className={styles['site-header']}>
       <div className={styles['header-inner']}>
-        <span className={styles['site-title']}>Programación integrativa de componentes web</span>
+        <span className={styles['site-title']}>Programación integrativa de componentes web - Laboratorio U2_Andres Ushiña</span>
         <nav className={styles['site-nav']}>
           <Link className={styles['nav-link']} to="/">Inicio</Link>
           <Link className={styles['nav-link']} to="/nosotros">Nosotros</Link>
