@@ -18,7 +18,6 @@ export const UserCard = ({nombre, activo=true}) => {
 
 UserCard.propTypes = {
     nombre: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired,
     edad: PropTypes.number,
     activo: PropTypes.bool
 };
