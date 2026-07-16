@@ -8,7 +8,9 @@ export const InicioPage = () => {
         <div className={styles['inicio-inner']}>
           <h1>Bienvenido a Rick & Morty Explorer</h1>
           <p>Explora personajes, episodios y más datos directamente desde la API pública.</p>
-          <a className={styles['cta-button']} href="/personajes">Ver personajes</a>
+          <a className={styles['cta-button']} href="/personajes">
+            Ver personajes
+          </a>
         </div>
       </section>
 
