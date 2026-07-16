@@ -1,7 +1,7 @@
 import styles from "./personaje.module.css";
 import React from 'react'
 import PropTypes from "prop-types";
-import { Card } from "../card/card";
+
 
 export const PersonajeCard = ({nombre, especie, imagen}) => {
   return (
