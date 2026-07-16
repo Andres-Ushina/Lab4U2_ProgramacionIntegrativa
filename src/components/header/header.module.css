@@ -63,7 +63,7 @@
     display: flex !important;
 }
 
-/* Tablets y celulares */
+/*Responvidad para tablets y celulares*/
 @media (max-width: 992px) {
 
     .header-inner {
